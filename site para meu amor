@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ana</title>
+</head>
+
+<style>
+    body{
+        background-color: rgb(179, 5, 248);
+           color: rgb(255, 249, 249);
+                font: normal 20pt Arial;  
+                    
+               
+    }
+</style>
+
+<body>
+   <h1> Boa tarde  </h1>
+   
+   <script>
+
+      window.alert("olá, seja bem vinda ao meu site!")
+      window.confirm("vamos descobrir quem é você ?")
+      var nome = window.prompt("qual é o seu nome ?")
+          document.write("Seja bem vindo(a) "+ nome + "<br>")
+              if (nome == "ana" || nome == "Ana" || nome == "ANA")
+
+                 {
+                   document.write(" <p> Você é minha namorada </p> " )
+                
+                      document.write(" Eu te amo muito sabia que era voce meu amor")
+                        document.body.style.backgroundColor = "rgb(85,4,51)"
+                }
+             else
+                {
+                    document.write("voce nao é meu amor")
+
+                }
+
+   </script>
+
+
+
+
+    
+</body>
+</html>
